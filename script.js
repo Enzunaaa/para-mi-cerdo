@@ -104,52 +104,39 @@ if(startButton){
 
 // ===============================
 // MÚSICA 🎵
+// Compatible con Safari iPhone
 // ===============================
 
+const music = document.getElementById("music");
+const musicButton = document.getElementById("musicButton");
 
-const music = document.querySelector("#music");
+if (music && musicButton) {
 
-const musicButton = document.querySelector("#musicButton");
+    musicButton.addEventListener("click", async () => {
 
+        try {
 
-let playing = false;
+            if (music.paused) {
 
+                await music.play();
 
-if(music && musicButton){
+                musicButton.innerHTML = "❤️";
 
+            } else {
 
-    musicButton.addEventListener("click",()=>{
+                music.pause();
 
+                musicButton.innerHTML = "🎵";
 
-        if(!playing){
+            }
 
+        } catch (error) {
 
-            music.play();
-
-
-            musicButton.innerHTML="❤️";
-
-
-            playing=true;
-
-
-        }else{
-
-
-            music.pause();
-
-
-            musicButton.innerHTML="🎵";
-
-
-            playing=false;
-
+            console.error("No se pudo reproducir el audio:", error);
 
         }
 
-
     });
-
 
 }
 
