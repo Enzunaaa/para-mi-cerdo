@@ -1534,3 +1534,75 @@ grid-template-columns:1fr;
 
 
 }
+
+/*======================================================
+INTRO SALIDA 🎬
+======================================================*/
+
+
+.intro{
+
+transition:1.5s ease;
+
+}
+
+
+.intro.hide{
+
+opacity:0;
+
+pointer-events:none;
+
+}
+
+
+
+
+
+/*======================================================
+SECCIÓN ACTIVA ✨
+======================================================*/
+
+
+section{
+
+transition:
+transform 1s ease,
+opacity 1s ease;
+
+}
+
+
+.active-section{
+
+animation:
+sectionEnter 1s ease;
+
+}
+
+
+
+@keyframes sectionEnter{
+
+
+from{
+
+opacity:.5;
+
+transform:
+translateY(40px);
+
+}
+
+
+to{
+
+opacity:1;
+
+transform:
+translateY(0);
+
+}
+
+
+}
