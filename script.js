@@ -1,4 +1,3 @@
-alert("JS funcionando ❤️");
 /*======================================================
    PARA MI CERDO ❤️
    SCRIPT.JS
