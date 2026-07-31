@@ -448,3 +448,61 @@ button{
 
 
 }
+
+/* =====================
+   DETALLE MI CERDO 🐷❤️
+===================== */
+
+
+.pig-badge{
+
+    display:inline-flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+    justify-content:center;
+
+    margin-bottom:20px;
+
+    font-size:35px;
+
+    animation:floatPig 3s ease-in-out infinite;
+
+}
+
+
+
+.pig-badge span{
+
+    margin-top:5px;
+
+    font-family:'Cormorant Garamond', serif;
+
+    font-size:25px;
+
+    letter-spacing:2px;
+
+}
+
+
+
+@keyframes floatPig{
+
+
+0%,100%{
+
+    transform:translateY(0);
+
+}
+
+
+50%{
+
+    transform:translateY(-8px);
+
+}
+
+
+}
