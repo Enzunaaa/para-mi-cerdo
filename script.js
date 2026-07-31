@@ -112,6 +112,9 @@ const musicButton = document.getElementById("musicButton");
 
 if (music && musicButton) {
 
+    // Cargamos la canción desde JavaScript
+    music.src = "music/cancion.mp3";
+
     musicButton.addEventListener("click", async () => {
 
         try {
@@ -132,7 +135,7 @@ if (music && musicButton) {
 
         } catch (error) {
 
-            console.error("No se pudo reproducir el audio:", error);
+            console.error(error);
 
         }
 
