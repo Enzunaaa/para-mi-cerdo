@@ -1606,3 +1606,96 @@ translateY(0);
 
 
 }
+
+/*======================================================
+CIERRE FINAL 🌙❤️
+======================================================*/
+
+
+.final{
+
+min-height:100vh;
+
+position:relative;
+
+overflow:hidden;
+
+text-align:center;
+
+}
+
+
+.final .container{
+
+position:relative;
+
+z-index:2;
+
+}
+
+
+.final h1{
+
+animation:
+fadeUp 2s ease;
+
+}
+
+
+.final-message{
+
+max-width:700px;
+
+margin:40px auto;
+
+font-size:24px;
+
+line-height:2;
+
+color:white;
+
+}
+
+
+.final p{
+
+color:white;
+
+}
+
+
+.love-quote{
+
+font-family:
+"Cormorant Garamond",
+serif;
+
+font-size:40px;
+
+}
+
+
+
+.sky::before{
+
+content:"";
+
+position:absolute;
+
+inset:0;
+
+background:
+
+radial-gradient(
+circle,
+rgba(255,255,255,.15) 1px,
+transparent 2px
+);
+
+background-size:
+80px 80px;
+
+animation:
+starsMove 60s linear infinite;
+
+}
