@@ -8,144 +8,611 @@
 
     <title>Para mi Cerdo ❤️</title>
 
-    <meta name="description" content="Una historia hecha con amor ❤️">
-
+    <meta name="description" content="Nuestra historia de amor">
 
     <link rel="stylesheet" href="style.css">
 
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 
-
 </head>
-
 
 <body>
 
+<!-- ==========================
+FONDO
+=========================== -->
 
+<div class="background-gradient"></div>
 <div class="stars"></div>
-
 <div class="floating-hearts"></div>
 
-
-
-<!-- MÚSICA -->
+<!-- ==========================
+MÚSICA
+=========================== -->
 
 <audio id="music" loop>
-
     <source src="music/sky-full-of-stars.mp3" type="audio/mpeg">
-
 </audio>
 
-
-<button class="music-button" onclick="toggleMusic()">
-
-🎵
-
+<button id="musicButton" class="music-button">
+    🎵
 </button>
 
+<!-- ==========================
+INTRO
+=========================== -->
 
+<section id="intro" class="intro">
 
+    <div class="intro-content">
 
+        <p class="intro-line">
+            Para la persona que cambió mi vida...
+        </p>
 
-<!-- PORTADA -->
+        <p class="intro-line">
+            Hay historias que merecen ser contadas.
+        </p>
 
+        <p class="intro-line">
+            Y esta...
+        </p>
+
+        <h1 class="intro-title">
+            es la nuestra ❤️
+        </h1>
+
+    </div>
+
+</section>
+
+<!-- ==========================
+PORTADA
+=========================== -->
 
 <section class="hero">
 
+    <div class="hero-overlay"></div>
+
+    <img
+        src="images/foto1.jpg"
+        class="hero-image"
+        alt="Nosotros">
 
     <div class="hero-content">
 
-
-        <p class="small-text">
-            Una historia que merece ser contada
-        </p>
-
+        <span class="hero-small">
+            NUESTRA HISTORIA
+        </span>
 
         <h1>
             Para mi Cerdo ❤️
         </h1>
 
+        <p>
 
-        <p class="subtitle">
+            Si pudiera volver a elegir...
 
-            Porque algunas personas llegan a nuestra vida
-            y cambian absolutamente todo.
+            volvería a encontrarte una y otra vez.
 
         </p>
 
+        <button id="startButton">
 
-
-        <button class="start-button" onclick="scrollToStory()">
-
-            Comenzar nuestra historia ✨
+            Comenzar
 
         </button>
 
+    </div>
 
+</section>
+
+<!-- ==========================
+CAPÍTULO 1
+=========================== -->
+
+<section class="chapter">
+
+    <div class="container">
+
+        <span class="chapter-number">
+            CAPÍTULO I
+        </span>
+
+        <h2>
+
+            Todo comenzó sin imaginarnos
+            lo que estaba por venir.
+
+        </h2>
+
+        <p>
+
+            Hay personas que llegan a nuestra vida
+            sin hacer ruido.
+
+            Pero un día te das cuenta...
+
+            de que ya no imaginás tus días sin ellas.
+
+        </p>
 
     </div>
 
+</section>
+
+<!-- ==========================
+FOTO DESTACADA
+=========================== -->
+
+<section class="featured-photo">
+
+    <img
+        src="images/foto2.jpg"
+        alt="Recuerdo">
+
+    <div class="featured-text">
+
+        <h2>
+
+            Uno de mis recuerdos favoritos.
+
+        </h2>
+
+        <p>
+
+            No por el lugar.
+
+            No por la fecha.
+
+            Sino porque estabas vos.
+
+        </p>
+
+    </div>
 
 </section>
 
+<!-- ==========================
+GALERÍA 01
+=========================== -->
 
-
-
-
-
-<!-- CARTA -->
-
-
-<section class="letter section">
-
-
-<div class="paper">
-
+<section class="gallery">
 
 <h2>
-Una carta para vos ❤️
+
+Nuestros primeros recuerdos 📸
+
 </h2>
 
+<div class="gallery-grid">
 
+<div class="photo">
+<img src="images/foto3.jpg">
+</div>
 
-<p>
-No sé exactamente en qué momento te convertiste
-en una parte tan importante de mi vida.
-</p>
+<div class="photo">
+<img src="images/foto4.jpg">
+</div>
 
+<div class="photo">
+<img src="images/foto5.jpg">
+</div>
 
-<p>
-Lo que sí sé es que desde que llegaste,
-mis días tienen otro sentido.
-</p>
+<div class="photo">
+<img src="images/foto6.jpg">
+</div>
 
+<div class="photo">
+<img src="images/foto7.jpg">
+</div>
 
-<p>
-Gracias por cada sonrisa, cada momento,
-cada charla y cada recuerdo que construimos.
-</p>
-
-
-<p>
-Esta página es solamente una pequeña forma
-de demostrarte todo lo que significás para mí.
-</p>
-
-
-
-<p class="signature">
-Siempre yo ❤️
-</p>
-
-
+<div class="photo">
+<img src="images/foto8.jpg">
+</div>
 
 </div>
 
+</section>
+
+<!-- ==========================
+CARTA
+=========================== -->
+
+<section class="letter">
+
+<div class="paper">
+
+<h2>
+
+Una carta para vos ❤️
+
+</h2>
+
+<p>
+
+No sé exactamente cuál fue el momento.
+
+Pero sí sé que hubo un día donde
+dejaste de ser una persona más.
+
+Y pasaste a convertirte
+en alguien imprescindible.
+
+</p>
+
+<p>
+
+Gracias por hacer que los días comunes
+se conviertan en recuerdos hermosos.
+
+</p>
+
+<p>
+
+Gracias por cada abrazo.
+
+Cada risa.
+
+Cada mirada.
+
+Cada locura.
+
+</p>
+
+<p class="signature">
+
+Con todo mi amor ❤️
+
+</p>
+
+</div>
+
+</section>
+
+<!-- =====================================================
+CAPÍTULO II
+====================================================== -->
+
+<section class="chapter">
+
+    <div class="container">
+
+        <span class="chapter-number">
+            CAPÍTULO II
+        </span>
+
+        <h2>
+            Poco a poco...
+            sin darnos cuenta,
+            empezamos a construir nuestra historia.
+        </h2>
+
+        <p>
+            Los mejores recuerdos nunca se planean.
+            Simplemente aparecen...
+            mientras estamos con la persona correcta.
+        </p>
+
+    </div>
+
+</section>
+
+
+
+
+
+<!-- =====================================================
+GALERÍA 02
+====================================================== -->
+
+<section class="gallery">
+
+<h2>
+Más recuerdos juntos ❤️
+</h2>
+
+<div class="gallery-grid">
+
+<div class="photo">
+<img src="images/foto9.jpg" alt="">
+</div>
+
+<div class="photo">
+<img src="images/foto10.jpg" alt="">
+</div>
+
+<div class="photo">
+<img src="images/foto11.jpg" alt="">
+</div>
+
+<div class="photo">
+<img src="images/foto12.jpg" alt="">
+</div>
+
+<div class="photo">
+<img src="images/foto13.jpg" alt="">
+</div>
+
+<div class="photo">
+<img src="images/foto14.jpg" alt="">
+</div>
+
+<div class="photo">
+<img src="images/foto15.jpg" alt="">
+</div>
+
+<div class="photo">
+<img src="images/foto16.jpg" alt="">
+</div>
+
+</div>
+
+</section>
+
+
+
+
+
+<!-- =====================================================
+NUESTROS MOMENTOS FAVORITOS
+====================================================== -->
+
+<section class="moments">
+
+<div class="container">
+
+<h2>
+
+Las pequeñas cosas que más amo ❤️
+
+</h2>
+
+<div class="moment-grid">
+
+<div class="moment-card">
+
+<span>😊</span>
+
+<h3>Tu sonrisa</h3>
+
+<p>
+Es imposible no sonreír cuando estoy con vos.
+</p>
+
+</div>
+
+<div class="moment-card">
+
+<span>🤍</span>
+
+<h3>Tu compañía</h3>
+
+<p>
+No importa el lugar.
+Lo importante siempre sos vos.
+</p>
+
+</div>
+
+<div class="moment-card">
+
+<span>😂</span>
+
+<h3>Nuestras locuras</h3>
+
+<p>
+Creo que nunca dejamos de reírnos.
+Y ojalá nunca pase.
+</p>
+
+</div>
+
+<div class="moment-card">
+
+<span>🌙</span>
+
+<h3>Las noches</h3>
+
+<p>
+Porque hablar con vos hace que el tiempo
+pase demasiado rápido.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+
+
+
+<!-- =====================================================
+CONTADOR
+====================================================== -->
+
+<section class="love-counter">
+
+<div class="container">
+
+<h2>
+
+¿Cuánto tiempo llevamos escribiendo esta historia?
+
+</h2>
+
+<div class="counter-grid">
+
+<div class="counter-item">
+
+<span id="days">0</span>
+
+<p>Días</p>
+
+</div>
+
+<div class="counter-item">
+
+<span id="hours">0</span>
+
+<p>Horas</p>
+
+</div>
+
+<div class="counter-item">
+
+<span id="minutes">0</span>
+
+<p>Minutos</p>
+
+</div>
+
+<div class="counter-item">
+
+<span id="seconds">0</span>
+
+<p>Segundos</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+
+
+
+<!-- =====================================================
+FOTO GIGANTE
+====================================================== -->
+
+<section class="featured-photo">
+
+<img src="images/foto17.jpg" alt="">
+
+<div class="featured-text">
+
+<h2>
+
+Si pudiera guardar un momento para siempre...
+
+probablemente sería uno con vos.
+
+</h2>
+
+<p>
+
+Y todavía nos quedan muchísimos más por vivir.
+
+</p>
+
+</div>
+
+</section>
+
+
+
+
+
+
+<!-- =====================================================
+FRASE ANIMADA
+====================================================== -->
+
+<section class="quote-section">
+
+<div class="container">
+
+<blockquote>
+
+"El mejor lugar del mundo
+siempre termina siendo
+al lado de la persona correcta."
+
+</blockquote>
+
+</div>
+
+</section>
+
+
+
+
+
+
+<!-- =====================================================
+TRANSICIÓN
+====================================================== -->
+
+<section class="transition">
+
+<div class="transition-content">
+
+<h2>
+
+Pero esto recién empieza...
+
+</h2>
+
+<p>
+
+Todavía quedan muchos recuerdos por descubrir.
+
+</p>
+
+<div class="scroll-indicator">
+
+↓
+
+</div>
+
+</div>
+
+</section>
+
+<!-- =====================================================
+CAPÍTULO III
+====================================================== -->
+
+<section class="chapter dark">
+
+    <div class="container">
+
+        <span class="chapter-number">
+            CAPÍTULO III
+        </span>
+
+        <h2>
+
+            Hay momentos que no necesitan explicación.
+
+        </h2>
+
+        <p>
+
+            Una foto.
+            Una mirada.
+            Una sonrisa.
+
+            Y automáticamente vuelvo a sentir exactamente
+            lo mismo que aquel día.
+
+        </p>
+
+    </div>
 
 </section>
 
@@ -155,91 +622,132 @@ Siempre yo ❤️
 
 
 
-<!-- HISTORIA -->
+<!-- =====================================================
+LÍNEA DEL TIEMPO
+====================================================== -->
 
-
-<section class="story section">
-
+<section class="timeline-section">
 
 <h2>
-Nuestra historia ✨
+
+Nuestra Historia
+
 </h2>
-
-
 
 <div class="timeline">
 
 
 
-<div class="moment">
+<div class="timeline-item left">
 
+<div class="timeline-dot"></div>
 
-<div class="photo-card">
-
-<img src="images/foto1.jpg" alt="Recuerdo">
-
-</div>
-
-
-
-<div class="text-card">
+<div class="timeline-content">
 
 <h3>
-El comienzo
+
+Todo comenzó...
+
 </h3>
 
-
 <p>
-Ese momento donde todo empezó
-y todavía no sabíamos todo lo que venía.
+
+Quién hubiera imaginado
+que una simple conversación
+iba a cambiar tantas cosas.
+
 </p>
 
+</div>
 
 </div>
 
 
-</div>
 
 
 
+<div class="timeline-item right">
 
+<div class="timeline-dot"></div>
 
-
-<div class="moment reverse">
-
-
-<div class="photo-card">
-
-<img src="images/foto2.jpg" alt="Recuerdo">
-
-</div>
-
-
-<div class="text-card">
-
+<div class="timeline-content">
 
 <h3>
-Nuestros momentos
+
+Nuestra primera salida
+
 </h3>
 
-
 <p>
-Cada risa, cada salida y cada instante
-que quedó guardado para siempre.
+
+Los nervios.
+
+Las risas.
+
+Y las ganas de volver a repetirlo.
+
 </p>
 
+</div>
 
 </div>
 
 
+
+
+
+<div class="timeline-item left">
+
+<div class="timeline-dot"></div>
+
+<div class="timeline-content">
+
+<h3>
+
+Las primeras fotos
+
+</h3>
+
+<p>
+
+Empezábamos a guardar recuerdos
+sin saber que un día formarían
+parte de esta página.
+
+</p>
+
+</div>
+
 </div>
 
 
 
 
 
+<div class="timeline-item right">
+
+<div class="timeline-dot"></div>
+
+<div class="timeline-content">
+
+<h3>
+
+Hoy
+
+</h3>
+
+<p>
+
+Y todavía siento que esto
+recién empieza.
+
+</p>
+
 </div>
 
+</div>
+
+</div>
 
 </section>
 
@@ -250,66 +758,49 @@ que quedó guardado para siempre.
 
 
 
-<!-- GALERÍA -->
+<!-- =====================================================
+GALERÍA 03
+====================================================== -->
 
-
-<section class="gallery section">
-
+<section class="gallery">
 
 <h2>
-Nuestros recuerdos 📸
+
+Más capítulos de nosotros 📸
+
 </h2>
-
-
 
 <div class="gallery-grid">
 
-
-<div class="polaroid">
-
-<img src="images/foto3.jpg">
-
+<div class="photo">
+<img src="images/foto18.jpg">
 </div>
 
-
-<div class="polaroid">
-
-<img src="images/foto4.jpg">
-
+<div class="photo">
+<img src="images/foto19.jpg">
 </div>
 
-
-<div class="polaroid">
-
-<img src="images/foto5.jpg">
-
+<div class="photo">
+<img src="images/foto20.jpg">
 </div>
 
-
-<div class="polaroid">
-
-<img src="images/foto6.jpg">
-
+<div class="photo">
+<img src="images/foto21.jpg">
 </div>
 
-
-<div class="polaroid">
-
-<img src="images/foto7.jpg">
-
+<div class="photo">
+<img src="images/foto22.jpg">
 </div>
 
-
-<div class="polaroid">
-
-<img src="images/foto8.jpg">
-
+<div class="photo">
+<img src="images/foto23.jpg">
 </div>
 
-
-
+<div class="photo">
+<img src="images/foto24.jpg">
 </div>
 
+</div>
 
 </section>
 
@@ -319,96 +810,66 @@ Nuestros recuerdos 📸
 
 
 
-<!-- DETALLES -->
 
+<!-- =====================================================
+CARTA INTERACTIVA
+====================================================== -->
 
-<section class="special section">
+<section class="letters">
 
-
-<div class="special-content">
-
+<div class="container">
 
 <h2>
-Pequeños detalles, grandes recuerdos ❤️
+
+Hay algo que quería decirte...
+
 </h2>
 
+<div class="letter-envelope" onclick="openLetter()">
 
+<div class="envelope">
 
-<div class="cards">
-
-
-
-<div class="memory-card">
-
-<span>
-✨
-</span>
-
-<h3>
-Las risas
-</h3>
-
-
-<p>
-Esos momentos simples que terminan siendo
-los más importantes.
-</p>
-
+💌
 
 </div>
 
+<p>
 
+Abrí este sobre
 
+</p>
 
-<div class="memory-card">
+</div>
 
-<span>
+<div
+id="hiddenLetter"
+class="hidden-letter">
+
+<p>
+
+Si algún día dudás de cuánto te quiero...
+
+volvé a esta página.
+
+Porque fue hecha pensando en vos.
+
+Cada foto.
+
+Cada línea.
+
+Cada animación.
+
+Todo tiene un solo motivo.
+
+Sacarte una sonrisa.
+
 ❤️
-</span>
 
-<h3>
-La compañía
-</h3>
-
-
-<p>
-Porque compartir la vida con alguien especial
-hace que todo sea diferente.
 </p>
 
-
 </div>
 
-
-
-
-<div class="memory-card">
-
-<span>
-🌙
-</span>
-
-
-<h3>
-Los recuerdos
-</h3>
-
-
-<p>
-Cada instante queda guardado como parte
-de nuestra historia.
-</p>
-
-
 </div>
-
-
-
-</div>
-
-
-</div>
-
 
 </section>
 
@@ -418,79 +879,99 @@ de nuestra historia.
 
 
 
-<!-- CONTADOR -->
 
+<!-- =====================================================
+RECUERDOS FAVORITOS
+====================================================== -->
 
-<section class="counter section">
+<section class="favorite-moments">
 
+<div class="container">
 
 <h2>
-Tiempo compartiendo ❤️
+
+Mis recuerdos favoritos
+
 </h2>
 
+<div class="favorite-grid">
 
+<div class="favorite">
 
-<div class="counter-box">
+🤍
 
+<h3>
 
-<div>
+Escucharte reír.
 
-<strong id="days">
-0
-</strong>
-
-<span>
-Días
-</span>
+</h3>
 
 </div>
 
+<div class="favorite">
+
+☕
 
 
-<div>
+<h3>
 
-<strong id="hours">
-0
-</strong>
+Compartir un café.
 
-<span>
-Horas
-</span>
-
-</div>
-
-
-
-<div>
-
-<strong id="minutes">
-0
-</strong>
-
-<span>
-Minutos
-</span>
+</h3>
 
 </div>
 
+<div class="favorite">
 
+🚗
 
-<div>
+<h3>
 
-<strong id="seconds">
-0
-</strong>
+Los viajes.
 
-<span>
-Segundos
-</span>
+</h3>
 
 </div>
 
+<div class="favorite">
 
+🌙
+
+<h3>
+
+Las noches hablando.
+
+</h3>
 
 </div>
 
+<div class="favorite">
+
+📸
+
+<h3>
+
+Cada foto juntos.
+
+</h3>
+
+</div>
+
+<div class="favorite">
+
+❤️
+
+<h3>
+
+Simplemente vos.
+
+</h3>
+
+</div>
+
+</div>
+
+</div>
 
 </section>
 
@@ -501,26 +982,664 @@ Segundos
 
 
 
-<!-- FINAL -->
+<!-- =====================================================
+PRIMER EASTER EGG
+====================================================== -->
+
+<section class="secret-section">
+
+<div class="container">
+
+<p class="secret-text">
+
+Dicen que en esta página
+hay cinco hamburguesas escondidas...
+
+🍔
+
+¿Será verdad?
+
+</p>
+
+</div>
+
+</section>
 
 
-<section class="final section">
 
+
+
+
+
+
+<!-- =====================================================
+TRANSICIÓN
+====================================================== -->
+
+<section class="transition">
+
+<div class="transition-content">
+
+<h2>
+
+Todavía falta lo mejor...
+
+</h2>
+
+<p>
+
+Seguí bajando.
+
+Todavía quedan muchas sorpresas.
+
+</p>
+
+</div>
+
+</section>
+
+<!-- =====================================================
+CAPÍTULO IV
+====================================================== -->
+
+<section class="chapter night">
+
+    <div class="container">
+
+        <span class="chapter-number">
+            CAPÍTULO IV
+        </span>
+
+        <h2>
+
+            Hay recuerdos que nunca se borran.
+
+        </h2>
+
+        <p>
+
+            No importa cuántos años pasen.
+
+            Hay momentos que siguen teniendo exactamente
+            la misma magia que el primer día.
+
+        </p>
+
+    </div>
+
+</section>
+
+
+
+
+
+
+
+<!-- =====================================================
+ÁLBUM PREMIUM
+====================================================== -->
+
+<section class="album">
+
+<div class="container">
+
+<h2>
+
+Nuestro álbum ❤️
+
+</h2>
+
+<p class="album-subtitle">
+
+Cada foto cuenta una parte de nuestra historia.
+
+</p>
+
+<div class="album-grid">
+
+<div class="album-photo large">
+<img src="images/foto25.jpg">
+</div>
+
+<div class="album-photo">
+<img src="images/foto26.jpg">
+</div>
+
+<div class="album-photo">
+<img src="images/foto27.jpg">
+</div>
+
+<div class="album-photo wide">
+<img src="images/foto28.jpg">
+</div>
+
+<div class="album-photo">
+<img src="images/foto29.jpg">
+</div>
+
+<div class="album-photo">
+<img src="images/foto30.jpg">
+</div>
+
+<div class="album-photo">
+<img src="images/foto31.jpg">
+</div>
+
+<div class="album-photo large">
+<img src="images/foto32.jpg">
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+
+
+
+
+<!-- =====================================================
+PROMESAS
+====================================================== -->
+
+<section class="promises">
+
+<div class="container">
+
+<h2>
+
+Algunas promesas ❤️
+
+</h2>
+
+<div class="promise-list">
+
+<div class="promise">
+
+🤍
+
+<p>
+
+Prometo seguir haciéndote reír.
+
+</p>
+
+</div>
+
+<div class="promise">
+
+🌎
+
+<p>
+
+Seguir creando recuerdos juntos.
+
+</p>
+
+</div>
+
+<div class="promise">
+
+☀️
+
+<p>
+
+Estar para vos incluso en los días difíciles.
+
+</p>
+
+</div>
+
+<div class="promise">
+
+✨
+
+<p>
+
+Nunca dejar de sorprenderte.
+
+</p>
+
+</div>
+
+<div class="promise">
+
+❤️
+
+<p>
+
+Elegirte todos los días.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+
+
+
+
+<!-- =====================================================
+CIELO
+====================================================== -->
+
+<section class="night-sky">
+
+<div class="moon"></div>
+
+<div class="stars-layer"></div>
+
+<div class="container">
+
+<h2>
+
+Mirá hacia arriba...
+
+</h2>
+
+<p>
+
+Incluso las estrellas parecen más lindas
+cuando las comparto con vos.
+
+</p>
+
+</div>
+
+</section>
+
+
+
+
+
+
+
+<!-- =====================================================
+GALERÍA FINAL
+====================================================== -->
+
+<section class="gallery final-gallery">
+
+<h2>
+
+Los últimos recuerdos... por ahora 📸
+
+</h2>
+
+<div class="gallery-grid">
+
+<div class="photo">
+<img src="images/foto33.jpg">
+</div>
+
+<div class="photo">
+<img src="images/foto34.jpg">
+</div>
+
+<div class="photo">
+<img src="images/foto35.jpg">
+</div>
+
+<div class="photo">
+<img src="images/foto36.jpg">
+</div>
+
+</div>
+
+</section>
+
+
+
+
+
+
+
+<!-- =====================================================
+MENSAJE
+====================================================== -->
+
+<section class="message">
+
+<div class="container">
+
+<h2>
+
+Y esto recién empieza...
+
+</h2>
+
+<p>
+
+Todavía nos quedan miles de fotos.
+
+Miles de abrazos.
+
+Miles de aventuras.
+
+Y ojalá toda una vida para seguir
+escribiendo esta historia.
+
+</p>
+
+</div>
+
+</section>
+
+
+
+
+
+
+
+<!-- =====================================================
+PRE FINAL
+====================================================== -->
+
+<section class="transition final-transition">
+
+<div class="transition-content">
+
+<h2>
+
+Creo que todavía no encontraste
+todas las sorpresas...
+
+🍔
+
+</h2>
+
+<p>
+
+Seguí bajando...
+
+</p>
+
+</div>
+
+</section>
+
+<!-- =====================================================
+CAPÍTULO V
+====================================================== -->
+
+<section class="chapter ending">
+
+    <div class="container">
+
+        <span class="chapter-number">
+            CAPÍTULO V
+        </span>
+
+        <h2>
+
+            Si llegaste hasta acá...
+
+            significa que recorriste toda nuestra historia.
+
+        </h2>
+
+        <p>
+
+            Pero todavía queda una última sorpresa.
+
+        </p>
+
+    </div>
+
+</section>
+
+
+
+
+
+
+
+<!-- =====================================================
+LO QUE MÁS AMO DE VOS
+====================================================== -->
+
+<section class="love-list">
+
+<div class="container">
+
+<h2>
+
+Las cosas que más amo de vos ❤️
+
+</h2>
+
+<div class="love-grid">
+
+<div class="love-card">
+😊
+<h3>Tu sonrisa</h3>
+<p>Porque ilumina cualquier día.</p>
+</div>
+
+<div class="love-card">
+🤍
+<h3>Tu forma de ser</h3>
+<p>Es imposible no enamorarse.</p>
+</div>
+
+<div class="love-card">
+😂
+<h3>Nuestras risas</h3>
+<p>Son mi sonido favorito.</p>
+</div>
+
+<div class="love-card">
+☕
+<h3>Los momentos simples</h3>
+<p>Con vos siempre son especiales.</p>
+</div>
+
+<div class="love-card">
+🌎
+<h3>Las aventuras</h3>
+<p>Quiero vivir miles más.</p>
+</div>
+
+<div class="love-card">
+❤️
+<h3>Simplemente vos.</h3>
+<p>Gracias por existir.</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+
+
+
+
+<!-- =====================================================
+BOTÓN SECRETO
+====================================================== -->
+
+<section class="secret-button-section">
+
+<button
+id="secretButton"
+class="secret-button">
+
+🍔
+
+</button>
+
+<p>
+
+(Probá tocar esta hamburguesa...)
+
+</p>
+
+</section>
+
+
+
+
+
+
+
+<!-- =====================================================
+MENSAJE OCULTO
+====================================================== -->
+
+<section
+id="secretRoom"
+class="secret-room">
+
+<div class="container">
+
+<h2>
+
+🎉 ¡Encontraste el primer secreto!
+
+</h2>
+
+<p>
+
+Sabía que ibas a tocar esa hamburguesa.
+
+Por eso preparé este pequeño rincón solamente para vos.
+
+❤️
+
+</p>
+
+<p>
+
+Todavía quedan más secretos escondidos.
+
+</p>
+
+</div>
+
+</section>
+
+
+
+
+
+
+
+<!-- =====================================================
+CONFESIONES
+====================================================== -->
+
+<section class="confessions">
+
+<div class="container">
+
+<h2>
+
+Hay algo que quiero confesarte...
+
+</h2>
+
+<div class="confession-list">
+
+<div>
+
+❤️
+
+Nunca pensé que alguien pudiera
+hacerme tan feliz.
+
+</div>
+
+<div>
+
+✨
+
+Gracias por aparecer.
+
+</div>
+
+<div>
+
+🌙
+
+Gracias por quedarte.
+
+</div>
+
+<div>
+
+🤍
+
+Y gracias por elegirnos.
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+
+
+
+
+<!-- =====================================================
+FINAL CINEMATOGRÁFICO
+====================================================== -->
+
+<section class="cinematic-ending">
+
+<div class="overlay"></div>
+
+<div class="ending-content">
 
 <h1>
-Siempre nosotros ❤️
+
+Gracias.
+
 </h1>
 
-
 <p>
-Una página hecha con amor.
+
+Gracias por cada recuerdo.
+
+Gracias por cada abrazo.
+
+Gracias por cada beso.
+
+Gracias por cada locura.
+
+Gracias por estar.
+
 </p>
 
+<h2>
 
-<div class="heart-animation">
+Te volvería a elegir
+
+mil veces más.
+
 ❤️
-</div>
 
+</h2>
+
+</div>
 
 </section>
 
@@ -529,13 +1648,68 @@ Una página hecha con amor.
 
 
 
+
+<!-- =====================================================
+CRÉDITOS
+====================================================== -->
+
+<section class="credits">
+
+<div class="container">
+
+<p>
+
+Esta página fue hecha especialmente para vos.
+
+Cada línea.
+
+Cada foto.
+
+Cada animación.
+
+Cada detalle.
+
+Pensando únicamente en hacerte sonreír.
+
+❤️
+
+</p>
+
+<p class="credits-sign">
+
+Con muchísimo amor,
+
+Enzo
+
+</p>
+
+</div>
+
+</section>
+
+
+
+
+
+
+
+<!-- =====================================================
+FOOTER
+====================================================== -->
 
 <footer>
 
 <p>
-Hecho con amor ❤️
+
+Para mi Cerdo ❤️
+
 </p>
 
+<p>
+
+Nuestra historia recién empieza.
+
+</p>
 
 </footer>
 
@@ -543,10 +1717,10 @@ Hecho con amor ❤️
 
 
 
+
+
 <script src="script.js"></script>
 
-
 </body>
-
 
 </html>
