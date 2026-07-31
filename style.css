@@ -108,11 +108,16 @@ p{
 
     position:absolute;
 
+    top:0;
+    left:0;
+
     width:100%;
 
     height:100%;
 
     object-fit:cover;
+
+    z-index:0;
 
 }
 
@@ -128,6 +133,8 @@ p{
 
     background:rgba(0,0,0,.45);
 
+    z-index:1;
+
 }
 
 
@@ -141,6 +148,7 @@ p{
     color:white;
 
     padding:20px;
+
 
 }
 
