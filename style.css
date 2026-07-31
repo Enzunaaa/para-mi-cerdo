@@ -1699,3 +1699,45 @@ animation:
 starsMove 60s linear infinite;
 
 }
+
+.final-pig{
+
+font-size:70px;
+
+margin-top:40px;
+
+animation:
+
+pigFloat 3s ease-in-out infinite;
+
+}
+
+
+
+@keyframes pigFloat{
+
+
+0%{
+
+transform:translateY(0);
+
+}
+
+
+50%{
+
+transform:translateY(-20px);
+
+}
+
+
+100%{
+
+transform:translateY(0);
+
+}
+
+
+}
+
+
